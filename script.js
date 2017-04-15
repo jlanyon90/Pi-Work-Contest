@@ -15,19 +15,19 @@ function reset_qty(){
     return 0;
 }
 
-function modify_resetqty(resval) {
-    var resetqty = document.getElementById('resetqty').value;
-    var new_resetqty = parseInt(resetqty,10) + resval;
+function modify_restartqty(resval) {
+    var restartqty = document.getElementById('restartqty').value;
+    var new_restartqty = parseInt(restartqty,10) + resval;
 
-    if (new_resetqty < 0) {
-        new_resetqty = 0;
+    if (new_restartqty < 0) {
+        new_restartqty = 0;
     }
 
-    document.getElementById('resetqty').value = new_resetqty;
-    return new_resetqty;
+    document.getElementById('restartqty').value = new_restartqty;
+    return new_restartqty;
 }
 
-function reset_resetqty(){
-    document.getElementById('resetqty').value = 0;
+function reset_restartqty(){
+    document.getElementById('restartqty').value = 0;
     return 0;
 }
