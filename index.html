@@ -1,0 +1,22 @@
+<html>
+<head>
+<script type="text/javascript" src="script.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css"> 
+</head>
+<body>
+
+    <div class="box">    
+        <label for="qty"><abbr title="Quantity">Bill Jokes This Week</abbr></label>
+        <input id="qty" value="0" />
+        <button id="down" onclick="reset_qty()">Reset</button>
+        <button id="up" onclick="modify_qty(1)">+1</button>
+    </div>
+    <div class="box">    
+        <label for="resetqty"><abbr title="Quantity">Reset Fixes This Week</abbr></label>
+        <input id="resetqty" value="0" />
+        <button id="down" onclick="reset_resetqty()">Reset</button>
+        <button id="up" onclick="modify_resetqty(1)">+1</button>
+    </div>
+
+</body>
+</html>
